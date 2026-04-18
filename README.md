@@ -1,6 +1,16 @@
 ## CRUD de Productos con MVC
 Programación Web — Unidad 6: JSP con MVC
-Universidad de Santander (UDES) — Ingeniería de Sistemas 2026
+Universidad Internacional de Santander (UDES) — Ingeniería de Sistemas 2026
+
+## Descripción
+Aplicación web Java que implementa el patrón MVC con Servlets como controlador, JSP con EL y JSTL como vista, y clases Java como modelo. Desarrolla un CRUD completo de productos que incluye listado, registro, edición y eliminación con redirección Post/Redirect/Get.
+
+## Prerrequisitos
+Java Development Kit (JDK) 17 o superior
+Apache Tomcat 10.x
+IntelliJ IDEA
+Maven 3.8+
+Navegador web moderno (Chrome, Firefox)
 
 ## Instrucciones de ejecución
 Clonar el repositorio y abrir en IntelliJ
@@ -8,6 +18,15 @@ Ejecutar mvn clean package en la terminal
 Configurar Tomcat: Run → Edit Configurations → + → Tomcat Server → Local
 En Deployment agregar el artefacto .war exploded
 Ejecutar y abrir http://localhost:8080/mvc-productos/productos
+
+
+## Funcionalidades implementadas
+Listado de todos los productos en una tabla
+Registro de nuevo producto con validación de nombre y precio
+Edición de producto existente con formulario precargado
+Eliminación de producto con diálogo de confirmación
+Mensajes de éxito tras cada operación (patrón PRG)
+Separación de responsabilidades con patrón MVC (Modelo, Vista, Controlador)
 
 ## Capturas de Pantalla
 Inventario de productos
