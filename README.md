@@ -1,6 +1,6 @@
 ## CRUD de Productos con MVC
 Programación Web — Unidad 6: JSP con MVC
-Universidad Internacional de Santander (UDES) — Ingeniería de Sistemas 2026
+Universidad de Santander (UDES) — Ingeniería de Sistemas 2026
 
 ## Descripción
 Aplicación web Java que implementa el patrón MVC con Servlets como controlador, JSP con EL y JSTL como vista, y clases Java como modelo. Desarrolla un CRUD completo de productos que incluye listado, registro, edición y eliminación con redirección Post/Redirect/Get.
